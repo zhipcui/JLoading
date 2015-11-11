@@ -13,6 +13,7 @@
 		1D79B5431BF3307600614930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D79B5411BF3307600614930 /* Main.storyboard */; };
 		1D79B5451BF3307600614930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D79B5441BF3307600614930 /* Assets.xcassets */; };
 		1D79B5481BF3307600614930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D79B5461BF3307600614930 /* LaunchScreen.storyboard */; };
+		1D79B5511BF330BA00614930 /* JLodingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D79B5501BF330BA00614930 /* JLodingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1D79B5441BF3307600614930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D79B5471BF3307600614930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D79B5491BF3307600614930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D79B54F1BF330BA00614930 /* JLodingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLodingView.h; sourceTree = "<group>"; };
+		1D79B5501BF330BA00614930 /* JLodingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLodingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1D79B53C1BF3307600614930 /* AppDelegate.m */,
 				1D79B53E1BF3307600614930 /* ViewController.h */,
 				1D79B53F1BF3307600614930 /* ViewController.m */,
+				1D79B54F1BF330BA00614930 /* JLodingView.h */,
+				1D79B5501BF330BA00614930 /* JLodingView.m */,
 				1D79B5411BF3307600614930 /* Main.storyboard */,
 				1D79B5441BF3307600614930 /* Assets.xcassets */,
 				1D79B5461BF3307600614930 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				1D79B5401BF3307600614930 /* ViewController.m in Sources */,
 				1D79B53D1BF3307600614930 /* AppDelegate.m in Sources */,
+				1D79B5511BF330BA00614930 /* JLodingView.m in Sources */,
 				1D79B53A1BF3307600614930 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

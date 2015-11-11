@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JLodingView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor purpleColor];
+    
+    CGRect screen = [UIScreen mainScreen].bounds;
+    
+    JLodingView *loadingView = [[JLodingView alloc] initWithFrame:CGRectMake(CGRectGetWidth(screen) / 2.0  ,CGRectGetHeight(screen) / 2.0, 100, 100)];
+    loadingView.center = CGPointMake(CGRectGetWidth(screen) / 2.0  ,CGRectGetHeight(screen) / 2.0);
+    [self.view addSubview:loadingView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
